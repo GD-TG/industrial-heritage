@@ -1,0 +1,36 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Large archives & temporary data
+Hackaton.zip
+*.zip
+*.tar.gz
+
+# Generated PDFs, JSON sidecars & Render images cache
+backend/pres_*.pdf
+backend/pres_*.json
+backend/images/*.png
+backend/images/*.jpg
+backend/test.py
+Hackaton/
+
+# Secrets & Local configuration
+.env
+backend/API.py
